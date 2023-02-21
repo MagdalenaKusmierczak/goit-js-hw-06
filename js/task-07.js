@@ -2,7 +2,7 @@
 const rangeInput = document.querySelector("#font-size-control");
 const outputText = document.querySelector("#text");
 
-rangeInput.addEventListener("change", () => {
+rangeInput.addEventListener("input", () => {
   const rangeValue = rangeInput.value;
   outputText.style.fontSize = `${rangeValue}px`;
 });
