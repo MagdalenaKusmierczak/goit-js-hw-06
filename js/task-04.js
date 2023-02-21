@@ -5,11 +5,11 @@ const incrementBtn = document.querySelector('button[data-action="increment"]');
 const decrementBtn = document.querySelector('button[data-action="decrement"]');
 
 function addingValue() {
-  counterValue = counterValue + 1;
+  counterValue += 1;
   displayCounterValue.textContent = counterValue;
 }
 function subtractingValue() {
-  counterValue = counterValue - 1;
+  counterValue -= 1;
   displayCounterValue.textContent = counterValue;
 }
 
